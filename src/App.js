@@ -5,13 +5,13 @@ function App() {
   const [keyword, setKeyword] = useState("");
   const [slugTitle, setSlugTitle] = useState("");
   const [metaTitle, setMetaTitle] = useState("");
-  const [metaDesc, setMetaDesc] = useState("");git add .
+  const [metaDesc, setMetaDesc] = useState("");
   const [blogViews, setBlogViews] = useState("");
   const [cpc, setCpc] = useState("");
 
   const wordCount = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
   const charCount = text.length;
-
+  
   const generateSlug = () => {
     return slugTitle
       .toLowerCase()
