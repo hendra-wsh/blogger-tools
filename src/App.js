@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+
 
 function App() {
   const [text, setText] = useState("");
   const [keyword, setKeyword] = useState("");
   const [slugTitle, setSlugTitle] = useState("");
   const [metaTitle, setMetaTitle] = useState("");
-  const [metaDesc, setMetaDesc] = useState("");
-  const [htmlContent, setHtmlContent] = useState("");
+  const [metaDesc, setMetaDesc] = useState("");git add .
   const [blogViews, setBlogViews] = useState("");
   const [cpc, setCpc] = useState("");
 
