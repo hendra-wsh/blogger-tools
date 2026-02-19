@@ -11,7 +11,7 @@ function App() {
 
   const wordCount = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
   const charCount = text.length;
-  const something = "text";
+  
   const generateSlug = () => {
     return slugTitle
       .toLowerCase()
