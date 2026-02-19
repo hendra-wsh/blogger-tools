@@ -1,4 +1,4 @@
-
+import React, { useState } from "react";
 
 function App() {
   const [text, setText] = useState("");
@@ -6,12 +6,13 @@ function App() {
   const [slugTitle, setSlugTitle] = useState("");
   const [metaTitle, setMetaTitle] = useState("");
   const [metaDesc, setMetaDesc] = useState("");
+  const [htmlContent, setHtmlContent] = useState("");
   const [blogViews, setBlogViews] = useState("");
   const [cpc, setCpc] = useState("");
 
   const wordCount = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
   const charCount = text.length;
-  const something = "text";
+const something = "text";
   const generateSlug = () => {
     return slugTitle
       .toLowerCase()
